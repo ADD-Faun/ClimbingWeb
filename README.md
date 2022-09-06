@@ -15,14 +15,18 @@ In this section, you should go over the different parts of your project, and des
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
+  - Identical on every page as consistency makes it easier for the visitor to navigate the website without much effort
+  - Navigation includes links to all 4 pages home , what we do , where we go and join us.
+  - Navigation slides across the top of the page as the screen size changes to give a responcive feeling change that is still consistent in its general position.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
 ![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
 
 - __The landing page image__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
+  - The landing includes a photograph of beautiful scenery framed by rock and someone enjoying the view.
+  - The image is supposed to invoke the feeling of adventure and beauty that many climbers enjoy, while the framing rock suggests this website is their portal to that feeling they seek.
+  - There is overlaying text to tell visitors they are in the right place and to encourage visitor to begin scrolling down.
   - This section introduces the user to Love Running with an eye catching animation to grab their attention
 
 ![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
