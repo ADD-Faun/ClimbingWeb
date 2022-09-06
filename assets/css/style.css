@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding:0;
+    border:none;
+   
+}
+html, body {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.wrapper {
+    box-sizing: border-box;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.page-header, .page-footer {
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.page-body {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.see{
+    background-color: #f16c6b;
+}
+/* Header logo nav*/
+header{
+    height:60px;
+    width:100%;
+}
+#logo-head #menu{
+    line-height: 75px;
+}
+#logo-head{
+    font-size: 180%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 20px;
+}
+#menu{
+    font-size: 160%;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    padding: 10px;
+    padding-left: 20px;
+    word-spacing: 4px;
+}
+#menu li{
+    list-style: none;
+    display: inline-flex;
+    margin: 2px;
+    padding-right: 20px;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover{
+    border-bottom: 1px solid #3a3a3a;
+}
+.current{
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/*cover image section styling*/
+
+#image-section{
+    height: 600px;
+    width: 100%;
+    position:relative;
+}
+
+#cover-image{
+    height: 600px;
+    width: 100%;
+    background-image: url('../images/cover-image-cave-with-view-and-man-pexels-m-venter-1659437.jpg');
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+}
+#welcome{
+    font-size: large;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 70%;
+    height: 80px;
+
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 0;
+
+    background-color: rgba(107, 210, 241, 0.7);
+
+    bottom: 30px;
+    right: 50px;
+
+    position: absolute;
+
+    max-width: fit-content;
+}
+
+/* what we do page*/
+.wedo-sections{
+    display:flex;
+    justify-content:space-evenly;
+    background-color:inherit;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+}
+.wedo-texts{
+    overflow:hidden;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+    text-align: left;
+    background-color: #3a3a3a;
+    position: relative;
+    top:50px;
+    z-index:5;
+    margin:1px;
+}
+.wedo-images{
+    overflow: hidden;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 3px solid #73AD21;
+    margin: 1px;
+    min-width:fit-content;
+}
+.wedo-groups{
+    margin:10px;
+    flex-grow: 1;
+    position: relative;
+    max-width: fit-content;
+}
+
+
+/* forms stuff*/
+.form-section{
+    clear: left;
+    background: url(../images/group-joinus-form-pexels-pavel-danilyuk-7591309.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+.join-us-form{
+    margin:150px 10% 0 0;
+    color:#fff;
+    background-color:rgba(60, 60, 60, 0.6);
+    max-width:400px;
+    position:absolute;
+    left:10%;
+    padding:30px;
+}
+
+.join-us-form h2{
+    color:#fafafa;
+    margin-bottom:20px;
+}
+.text-input{
+    background:transparent;
+    color:#fafafa;
+    width:100%;
+    height:25px;
+    margin:5px 0 20px 0;
+    border:1px solid #fafafa;
+    border-radius:2px;
+}
+.text-input:hover{
+    border-color:#f16c6b;
+}
+.join-button{
+    margin-top:20px;
+    border-radius:2px;
+    padding:15px 32px 15px 32px;
+    text-align:center;
+    font-size:100%;
+    background-color:#f16c6b;
+    color:#fafafa;
+    display:block;
+}
+.join-button:hover{
+    background-color:#fafafa;
+    color:#f16c6b;
+}
+
+/* footer stuff */
+footer{
+    height: 150px;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.social-networks{
+    text-align: center;
+}
+
+.social-networks li{
+    display: inline;
+}
+
+.social-networks i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
