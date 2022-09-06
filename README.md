@@ -29,6 +29,8 @@ In this section, you should go over the different parts of your project, and des
   - There is overlaying text to tell visitors they are in the right place and to encourage visitor to begin scrolling down.
   - This section introduces the user to Love Running with an eye catching animation to grab their attention
 
+  is this an insertion?
+
 ![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
 - __Club Ethos Section__
